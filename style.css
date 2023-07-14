@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+:root {
+    --primary: #164074;
+}
+
+.color-theme {
+    background-color: var(--primary);
+}
+
+.book-ticket-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background: url('vandebharat.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+    width: 400px;
+    margin-left: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    box-shadow: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    outline: none;
+    background-color: #eaeaea;
+}
+
+.btn-primary {
+    background-color: #1c4980;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #11325a;
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .card{
+        margin: 0px 10px 0px 10px;
+    } 
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .card{
+        margin: 0px 10px 0px 10px;
+    } 
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card{
+        margin: 0px 10px 0px 10px;
+    } 
+}
