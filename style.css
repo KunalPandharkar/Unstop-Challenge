@@ -79,23 +79,101 @@ a:hover {
 }
 
 
+/* tickets page */
+
+
+
+.booking-main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
+}
+
+.booking-main h1 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 620;
+}
+
+.booking-details {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.booking-details span {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.booking-details .seats {
+    font-size: 24px;
+}
+
+.seat-numbers {
+    margin-top: 30px;
+}
+
+.seat-numbers p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.seat {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 185, 185);
+}
+
+.booked {
+    background-color: green;
+}
+.already-booked{
+    background-color: lightgray;
+}
+
+
+.success-message {
+    background-color: #dff0d8;
+    padding: 10px;
+    border-radius: 5px;
+
+    margin: 20px auto;
+    max-width: 400px;
+  }
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-    .card{
+    .main-container {
+        flex-wrap: wrap;
+    }
+
+    .card {
         margin: 0px 10px 0px 10px;
-    } 
+    }
+
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-    .card{
+    .main-container {
+        flex-wrap: wrap;
+    }
+    .card {
         margin: 0px 10px 0px 10px;
-    } 
+    }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .card{
+    .main-container {
+        flex-wrap: wrap;
+    }
+    .card {
         margin: 0px 10px 0px 10px;
-    } 
+    }
 }
